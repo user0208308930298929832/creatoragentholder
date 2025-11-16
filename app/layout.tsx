@@ -2,14 +2,15 @@ import "./globals.css";
 
 export const metadata = {
   title: "CreatorAgent",
-  description: "Landing Page",
+  description: "Landing Page do CreatorAgent",
 };
 
-export default function RootLayout({ children }: any) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt">
-      <head />
-      <body>{children}</body>
+      <body className="bg-dark text-white antialiased">
+        {children}
+      </body>
     </html>
   );
 }
