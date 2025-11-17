@@ -13,11 +13,14 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a href="#pricing">
-            <button className="px-8 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition">
-              Comprar Acesso Antecipado
-            </button>
-          </a>
+            <a
+      href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-8 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition"
+    >
+      Comprar Agora
+    </a>
 
           <a href="#demo">
             <button className="px-8 py-3 rounded-lg border border-gray-600 text-gray-200 hover:border-blue-500 transition">
@@ -74,24 +77,14 @@ export default function Home() {
           <h3 className="text-5xl font-bold mb-4">39€</h3>
           <p className="text-gray-300 mb-6">Acesso vitalício (apenas 10 vagas)</p>
 
-          <a
-            href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              backgroundColor: "#3b82f6",
-              padding: "12px 24px",
-              borderRadius: "8px",
-              color: "#fff",
-              fontWeight: "600",
-              fontSize: "1rem",
-              textDecoration: "none",
-              display: "inline-block",
-              marginTop: "20px",
-            }}
-          >
-            Comprar Agora
-          </a>
+        <a
+          href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-8 py-4 rounded-lg bg-blue-500 text-white font-semibold text-lg hover:bg-blue-600 transition"
+        >
+          Comprar Agora
+        </a>
 
           <p className="text-gray-500 text-sm mt-6">
             Sem mensalidades • Atualizações incluídas • Acesso vitalício
