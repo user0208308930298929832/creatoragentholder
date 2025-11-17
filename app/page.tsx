@@ -18,9 +18,9 @@ export default function Home() {
       target="_blank"
       rel="noopener noreferrer"
       className="px-8 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition"
-    >
-      Comprar Agora
-    </a>
+            >
+              Comprar Agora
+            </a>
 
           <a href="#demo">
             <button className="px-8 py-3 rounded-lg border border-gray-600 text-gray-200 hover:border-blue-500 transition">
