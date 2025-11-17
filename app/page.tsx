@@ -1,5 +1,3 @@
-"use client";
-
 import Hero from "@/components/Hero";
 import DashboardMockup from "@/components/DashboardMockup";
 import CreatorAgentSection from "@/components/CreatorAgentSection";
@@ -10,7 +8,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="w-full overflow-x-hidden">
+    <main className="overflow-hidden bg-[#0b0d0f]">
       <Hero />
       <DashboardMockup />
       <CreatorAgentSection />
