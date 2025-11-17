@@ -1,26 +1,26 @@
 export default function DashboardMockup() {
   return (
-    <div className="w-full flex justify-center mt-20">
+    <div className="w-full flex justify-center mt-10">
       <div className="relative max-w-6xl w-full">
 
         {/* GLOW BACKLIGHT */}
         <div className="absolute inset-0 mx-auto w-[95%] h-[420px] bg-gradient-to-br 
-            from-blue-500/20 via-purple-500/20 to-transparent 
-            blur-[90px] opacity-40 pointer-events-none rounded-full">
-        </div>
+          from-blue-500/20 via-purple-500/20 to-transparent 
+          blur-[90px] opacity-40 pointer-events-none rounded-full" 
+        />
 
         {/* FLOAT WRAPPER */}
         <div className="relative rounded-[32px] border border-white/10 bg-white/5 
-            backdrop-blur-xl shadow-[0_0_80px_-20px_rgba(80,120,255,0.25)] 
-            px-10 py-12 flex flex-col gap-10 transform">
-          
+          backdrop-blur-xl shadow-[0_0_80px_-20px_rgba(80,120,255,0.25)] 
+          px-8 md:px-10 py-10 md:py-12 flex flex-col gap-10">
+
           {/* GRID */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             {/* CARD 1 */}
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] 
-                shadow-[0_0_40px_-10px_rgba(80,180,255,0.3)] p-6">
-              <div className="text-gray-400 text-sm font-medium mb-1 flex justify-between">
+              shadow-[0_0_40px_-10px_rgba(80,180,255,0.3)] p-6">
+              <div className="text-gray-400 text-sm font-medium mb-3 flex justify-between items-center">
                 <span>Visão Geral</span>
                 <span className="px-3 py-1 rounded-full bg-white/10 text-xs">
                   AI Content Engine
@@ -47,16 +47,16 @@ export default function DashboardMockup() {
 
             {/* CARD 2 */}
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] 
-                shadow-[0_0_40px_-10px_rgba(80,255,120,0.2)] p-6">
+              shadow-[0_0_40px_-10px_rgba(80,255,120,0.2)] p-6">
               
-              <div className="text-gray-400 text-sm font-medium mb-1 flex justify-between">
+              <div className="text-gray-400 text-sm font-medium mb-3 flex justify-between items-center">
                 <span>Output da IA</span>
                 <span className="px-3 py-1 rounded-full bg-white/10 text-xs">
                   Texto otimizado
                 </span>
               </div>
 
-              <div className="mt-3 p-4 bg-green-500/10 border border-green-500/30 rounded-xl">
+              <div className="mt-1 p-4 bg-green-500/10 border border-green-500/30 rounded-xl">
                 <p className="text-green-200 text-xs uppercase tracking-wide mb-1">
                   Pré-visualização
                 </p>
@@ -80,9 +80,9 @@ export default function DashboardMockup() {
 
             {/* CARD 3 */}
             <div className="rounded-2xl border border-white/10 bg-white/[0.03] 
-                shadow-[0_0_40px_-10px_rgba(180,90,255,0.25)] p-6">
+              shadow-[0_0_40px_-10px_rgba(180,90,255,0.25)] p-6">
 
-              <div className="text-gray-400 text-sm font-medium mb-1 flex justify-between">
+              <div className="text-gray-400 text-sm font-medium mb-3 flex justify-between items-center">
                 <span>Scheduler</span>
                 <span className="px-3 py-1 rounded-full bg-white/10 text-xs">
                   Calendário automático
@@ -109,6 +109,12 @@ export default function DashboardMockup() {
                 ))}
               </div>
 
+              <div className="flex justify-between items-center text-[11px] text-gray-400 mt-4">
+                <span>Próxima sugestão em 02:14</span>
+                <span className="px-3 py-1 rounded-full border border-white/20 bg-white/5">
+                  Sincronizado com Instagram & TikTok
+                </span>
+              </div>
             </div>
 
           </div>
