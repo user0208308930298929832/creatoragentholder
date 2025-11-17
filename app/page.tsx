@@ -75,23 +75,23 @@ export default function Home() {
           <p className="text-gray-300 mb-6">Acesso vitalício (apenas 10 vagas)</p>
 
           <a
-  href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    backgroundColor: "#3b82f6",
-    padding: "12px 24px",
-    borderRadius: "8px",
-    color: "#fff",
-    fontWeight: "600",
-    fontSize: "1rem",
-    textDecoration: "none",
-    display: "inline-block",
-    marginTop: "20px",
-  }}
->
-  Comprar Agora
-</a>
+            href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              backgroundColor: "#3b82f6",
+              padding: "12px 24px",
+              borderRadius: "8px",
+              color: "#fff",
+              fontWeight: "600",
+              fontSize: "1rem",
+              textDecoration: "none",
+              display: "inline-block",
+              marginTop: "20px",
+            }}
+          >
+            Comprar Agora
+          </a>
 
           <p className="text-gray-500 text-sm mt-6">
             Sem mensalidades • Atualizações incluídas • Acesso vitalício
