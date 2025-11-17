@@ -2,38 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #0f1115;
-  color: #ffffff;
-  font-family: 'Inter', sans-serif;
+/* Base reset */
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f1115;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+
+  section {
+    width: 100%;
+  }
 }
 
-section {
-  width: 100%;
-}
-.tag-blue {
-  @apply text-xs px-3 py-1 rounded-full border border-blue-400/40 text-blue-200 bg-blue-500/10;
+/* Componentes customizados */
+@layer components {
+  .tag-blue {
+    @apply text-xs px-3 py-1 rounded-full border border-blue-400 text-blue-200 bg-blue-500/10;
+  }
+
+  .metric-box {
+    @apply rounded-xl p-4 bg-white/5 border border-white/10;
+  }
+
+  .metric-label {
+    @apply text-xs text-green-300;
+  }
+
+  .metric-value {
+    @apply text-lg font-semibold text-green-200;
+  }
+
+  .metric-sub {
+    @apply text-[11px] text-green-300/70;
+  }
 }
 
-.metric-box {
-  @apply rounded-xl p-4 bg-white/5 border border-white/10;
-}
-
-.metric-label {
-  @apply text-xs text-green-300;
-}
-
-.metric-value {
-  @apply text-lg font-semibold text-green-200;
-}
-
-.metric-sub {
-  @apply text-[11px] text-green-300/70;
-}
-
-.glass-card {
-  backdrop-filter: blur(22px);
-  -webkit-backdrop-filter: blur(22px);
+/* Utilities customizadas */
+@layer utilities {
+  .glass-card {
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+  }
 }
