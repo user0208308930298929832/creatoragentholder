@@ -30,11 +30,6 @@ export default function Home() {
         <CreatorAgentSection />
       </section>
 
-      {/* MOCKUP INTERIOR */}
-      <section className="w-full max-w-6xl px-6 mt-12">
-        <DashboardMockup />
-      </section>
-
       {/* PRICING */}
       <section className="w-full max-w-4xl px-6 mt-32">
         <Pricing />
