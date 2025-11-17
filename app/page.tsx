@@ -74,11 +74,24 @@ export default function Home() {
           <h3 className="text-5xl font-bold mb-4">39€</h3>
           <p className="text-gray-300 mb-6">Acesso vitalício (apenas 10 vagas)</p>
 
-          <a href="#">
-            <button className="px-10 py-4 text-lg rounded-lg bg-blue-500 hover:bg-blue-600 transition font-semibold">
-              Comprar Agora
-            </button>
-          </a>
+          <a
+  href="https://buy.stripe.com/8x214ndFx2t13smdKkbEA00"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    backgroundColor: "#3b82f6",
+    padding: "12px 24px",
+    borderRadius: "8px",
+    color: "#fff",
+    fontWeight: "600",
+    fontSize: "1rem",
+    textDecoration: "none",
+    display: "inline-block",
+    marginTop: "20px",
+  }}
+>
+  Comprar Agora
+</a>
 
           <p className="text-gray-500 text-sm mt-6">
             Sem mensalidades • Atualizações incluídas • Acesso vitalício
