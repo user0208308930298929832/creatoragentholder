@@ -16,7 +16,7 @@ export default function Home() {
       </section>
 
       {/* SINGLE DASHBOARD */}
-      <section className="w-full max-w-6xl px-6 mt-16">
+      <section className="w-full max-w-6xl px-6 mt-8">
         <DashboardMockup />
       </section>
 
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
-      <section className="w-full max-w-4xl px-6 mt-32">
+      <section id="pricing" className="w-full max-w-4xl px-6 mt-32">
         <Pricing />
       </section>
 
