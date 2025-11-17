@@ -27,7 +27,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="w-full py-32 px-6 md:px-12 lg:px-24 bg-[#0f1115]">
+    <section className="w-full py-32 px-6 md:px-12 lg:px-24">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-center text-4xl font-bold mb-4">
           Tudo o que precisas para nunca mais ficar sem conteúdo.
