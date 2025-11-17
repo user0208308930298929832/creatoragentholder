@@ -9,14 +9,14 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="w-full flex flex-col items-center justify-center overflow-x-hidden">
-      
+
       {/* HERO */}
       <section className="w-full max-w-7xl px-6 pt-24">
         <Hero />
-    </section>
+      </section>
 
-      {/* MOCKUP HERO */}
-      <section className="w-full max-w-6xl px-6 mt-12">
+      {/* SINGLE DASHBOARD */}
+      <section className="w-full max-w-6xl px-6 mt-16">
         <DashboardMockup />
       </section>
 
@@ -25,7 +25,7 @@ export default function Home() {
         <Features />
       </section>
 
-      {/* SECTION: DENTRO DO CREATORAGENT */}
+      {/* INTERIOR DO CREATORAGENT */}
       <section className="w-full max-w-6xl px-6 mt-32">
         <CreatorAgentSection />
       </section>
