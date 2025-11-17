@@ -1,13 +1,13 @@
 export default function DashboardMockup() {
   return (
     <div className="w-full flex justify-center">
-      <div className="frame relative max-w-6xl w-full">
-        
+      <div className="relative max-w-6xl w-full">
+
         {/* GRID */}
-        <div className="dashboard grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
           {/* CARD 1 — Ideias Geradas */}
-          <div className="card glass card-ideas">
+          <div className="card card-ideas">
             <div className="card-header">
               <span className="card-title">Visão Geral</span>
               <span className="card-pill">AI Content Engine</span>
@@ -31,7 +31,7 @@ export default function DashboardMockup() {
           </div>
 
           {/* CARD 2 — Texto Otimizado */}
-          <div className="card glass card-texto">
+          <div className="card card-texto">
             <div className="card-header">
               <span className="card-title">Output da IA</span>
               <span className="card-pill">Texto Otimizado</span>
@@ -40,8 +40,7 @@ export default function DashboardMockup() {
             <div className="optimized-box">
               <div className="optimized-label">Pré-visualização</div>
               <p className="optimized-text">
-                "Neste vídeo mostro-te como transformar uma ideia solta num conteúdo que gera
-                guardados, partilhas e novos seguidores todos os dias..."
+                "Neste vídeo mostro-te como transformar uma ideia solta num conteúdo que gera guardados..."
               </p>
             </div>
 
@@ -60,8 +59,8 @@ export default function DashboardMockup() {
             </div>
           </div>
 
-          {/* CARD 3 — Calendário Automático */}
-          <div className="card glass card-calendario">
+          {/* CARD 3 — Calendário */}
+          <div className="card card-calendario">
             <div className="card-header">
               <span className="card-title">Scheduler</span>
               <span className="card-pill">Calendário Automático</span>
@@ -77,22 +76,18 @@ export default function DashboardMockup() {
                 <span className="day-label">Seg</span>
                 <span className="day-content">Reel</span>
               </div>
-
               <div className="day-cell">
                 <span className="day-label">Ter</span>
                 <span className="day-content">Carrossel</span>
               </div>
-
               <div className="day-cell">
                 <span className="day-label">Qua</span>
                 <span className="day-content">Story</span>
               </div>
-
               <div className="day-cell">
                 <span className="day-label">Qui</span>
                 <span className="day-content">Reel</span>
               </div>
-
               <div className="day-cell">
                 <span className="day-label">Sex</span>
                 <span className="day-content">Post longo</span>
