@@ -42,15 +42,14 @@ body {
 .frame::before {
   content: "";
   position: absolute;
-  inset: -60px;
+  inset: -40px;
   pointer-events: none;
-  background: radial-gradient(
-    circle at top center,
-    rgba(255, 255, 255, 0.1),
-    transparent 60%
-  );
-  opacity: 0.4;
-  mix-blend-mode: screen;
+  background:
+    radial-gradient(circle at top center, rgba(255,255,255,0.03), transparent 70%),
+    radial-gradient(circle at bottom center, rgba(168,85,247,0.05), transparent 80%),
+    radial-gradient(circle at left center, rgba(59,130,246,0.04), transparent 80%);
+  opacity: 0.35;
+  filter: blur(50px);
 }
 
 .dashboard {
