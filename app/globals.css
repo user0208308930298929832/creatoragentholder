@@ -54,16 +54,28 @@ body {
 
 .card {
   position: relative;
-  background: linear-gradient(135deg, rgba(255,255,255,0.04), rgba(15,23,42,0.6));
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+
+  /* visual */
+  background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(15,23,42,0.98));
   border-radius: var(--card-radius);
   border: 1px solid var(--glass-border);
   box-shadow:
-    0 24px 60px rgba(0, 0, 0, 0.85),
-    inset 0 0 0 0.5px rgba(255,255,255,0.06);
+    0 24px 80px rgba(15,23,42,0.95),
+    0 0 40px rgba(59,130,246,0.20),
+    0 0 40px rgba(168,85,247,0.20);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  padding: 20px 20px 18px;
+
+  /* espaçamento interno */
+  padding: 20px 22px 18px;
   overflow: hidden;
+
+  /* garante que todos os cards têm a mesma altura */
+  min-height: 260px;
 }
 
 .card-header {
