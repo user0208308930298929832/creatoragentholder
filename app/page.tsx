@@ -13,7 +13,7 @@ export default function Home() {
       {/* HERO */}
       <section className="w-full max-w-7xl px-6 pt-24">
         <Hero />
-      </section>
+    </section>
 
       {/* MOCKUP HERO */}
       <section className="w-full max-w-6xl px-6 mt-12">
