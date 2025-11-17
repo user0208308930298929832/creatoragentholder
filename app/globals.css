@@ -320,17 +320,6 @@ body {
     0 0 120px rgba(168,85,247,0.12);
   margin-bottom: 160px;
 }
-html, body {
-  margin: 0;
-  padding: 0;
-  background:
-    radial-gradient(circle at top left, rgba(59,130,246,0.18), transparent 55%),
-    radial-gradient(circle at bottom right, rgba(168,85,247,0.18), transparent 55%),
-    #0b0d0f;
-  color: var(--text-main);
-  font-family: 'Inter', sans-serif;
-  min-height: 100vh;
-}
 /* --- ANIMAÇÃO SUAVE DE ENTRADA --- */
 .card {
   opacity: 0;
