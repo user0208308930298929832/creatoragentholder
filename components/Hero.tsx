@@ -4,7 +4,7 @@ export default function Hero() {
 
       {/* AURORA BACKGROUND */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="w-[900px] h-[900px] bg-gradient-to-br from-blue-600/30 via-purple-500/20 to-transparent blur-[120px] opacity-30 rounded-full"></div>
+        <div className="w-[900px] h-[900px] bg-gradient-to-br from-blue-600/30 via-purple-500/20 to-transparent blur-[120px] opacity-30 rounded-full" />
       </div>
 
       {/* CONTENT */}
@@ -46,7 +46,7 @@ export default function Hero() {
         </div>
 
         {/* TRUST METRICS */}
-        <div className="flex justify-center gap-6 text-gray-400 text-sm mt-8">
+        <div className="flex flex-wrap justify-center gap-6 text-gray-400 text-sm mt-8">
           <span>⚡ +2.000 ideias geradas em testes internos</span>
           <span>🤖 IA afinada para social media</span>
         </div>
